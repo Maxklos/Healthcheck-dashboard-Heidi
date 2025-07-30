@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Healthchecks.io</title>
+    <title>TeamPlatypus Status</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         /* Colors, dark theme */
@@ -170,7 +170,7 @@
                     }
                 }
             };
-            httpRequest.open("GET", "https://healthchecks.io/api/v3/checks/");
+            httpRequest.open("GET", "https://status.teamplatypus.de/api/v3/checks/");
             httpRequest.setRequestHeader("X-Api-Key", key);
             httpRequest.send();
         }
